@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-primary">
+    <!-- mobile menu  starts  -->
+    <nav class="mobile-menu ">
+        <button class="mobile-menu-toggle">&#9776;</button>
+        <ul>
+            <li><a href="#">MY EXPERIENCE</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#certificates">CERTIFICATES</a></li>
+            <li><a href="#blogs">BLOG</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        // JavaScript for toggling the mobile menu
+        const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+        const mobileMenuList = document.querySelector(".mobile-menu ul");
+
+        mobileMenuToggle.addEventListener("click", () => {
+            mobileMenuList.classList.toggle("show");
+        });
+    </script>
+     <!-- mobile menu ends -->
+    <div class="nav-container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div class="logo">
+                <a href="./asset/round_photo.png" title="InBio" rel="home">
+                                                                        <img height="50" width="50"  class="dark-logo" src="./asset/round_photo.png" alt="InBio">
+            <!-- <img class="light-logo" src="https://rainbowit.net/themes/inbio/wp-content/themes/inbio/assets/images/logo/logo.png" alt="InBio"> -->
+                                                            </a>
+            </div>
+            <nav class="primary-menu">
+                <ul >
+                    <li><a href="">MY EXPERIENCE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#resume">RESUME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#blogs">BLOG</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="main-intro-div row">
+        
+        <div class="col-8 main-intro-photo-div">
+            <!-- <div class="banner-div card-primary">
+                <img src="./asset/banner-me1.jpg" height="600" width="800" alt="">
+            </div> -->
+            <div class="banner-div card-primary">
+                <div class="about-me-article">
+                    <p>I am Shuvo Islam, a passionate and dedicated software engineer specializing in financial technology and cybersecurity. With a strong academic background and hands-on experience in fintech solutions, I am committed to developing secure, efficient, and innovative digital financial services.</p>
+                <p>I earned my Bachelor's degree in Software Engineering from Noakhali Science and Technology University, where I gained expertise in programming, system architecture, and cybersecurity. My interest in fintech was sparked during university seminars on financial technology, which led me to complete a blockchain certification from the State University of New York on Coursera. This early exposure to emerging financial technologies shaped my career aspirations and set me on a path to contribute to Bangladesh’s rapidly evolving banking sector.</p>
+                <p>Professionally, I started my journey as a Trainee Software Engineer at Massdata Ltd., where I worked on gateway-based applications that enhanced digital transactions. To further deepen my expertise, I joined Allone Softech Ltd., one of Bangladesh’s leading fintech companies. As a backend developer, I played a key role in developing MyCash, a widely used mobile financial service (MFS) platform, and contributed to the Agent Banking platform for Mercantile Bank. These experiences allowed me to gain in-depth knowledge of digital banking, transaction security, and mobile financial services.</p>
+                <p>Currently, I am actively involved in developing an Islamic banking solution, which has given me valuable insights into Sharia-compliant financial systems and their integration with modern fintech solutions. This work has strengthened my ability to design secure and user-friendly financial platforms that meet diverse banking needs.</p>
+                <p>As Bangladesh’s banking industry undergoes rapid digital transformation, I am keen to contribute to the sector’s growth by leveraging advanced technologies like blockchain, artificial intelligence, and cybersecurity measures to enhance mobile banking security and financial accessibility. My goal is to continue innovating in the fintech space, ensuring that digital financial services remain secure, efficient, and inclusive.</p>
+                <p>With a strong technical foundation, industry experience, and a passion for financial technology, I am dedicated to shaping the future of fintech in Bangladesh and beyond. Through continuous learning and hands-on development, I aim to create impactful financial solutions that empower individuals and businesses alike.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 main-intro-text-div">
+            <div class="card-primary mb-5">
+                <h1 class="font-secondary user-info-title"><span class="text-white">Hi, I'm</span><span class="text-secondary">  Shuvo</span></h1>
+                <p  class="text-primary">Software Engineer and Fintech developer working for</p>
+                <p class="text-primary">Allone Softech Ltd. in Dhaka, Bangladesh</p>
+                <div class="d-flex align-items-center m-0">
+                    <svg class="m-0 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ff014f" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M9 2.221V7H4.221a2 2 0 0 1 .365-.5L8.5 2.586A2 2 0 0 1 9 2.22ZM11 2v5a2 2 0 0 1-2 2H4v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-7Zm-.293 9.293a1 1 0 0 1 0 1.414L9.414 14l1.293 1.293a1 1 0 0 1-1.414 1.414l-2-2a1 1 0 0 1 0-1.414l2-2a1 1 0 0 1 1.414 0Zm2.586 1.414a1 1 0 0 1 1.414-1.414l2 2a1 1 0 0 1 0 1.414l-2 2a1 1 0 0 1-1.414-1.414L14.586 14l-1.293-1.293Z" clip-rule="evenodd"/>
+                    </svg>
+                    <p class="text-primary m-0">Softare Engineer & Fintech Developer</p>
+                      
+                </div>
+                <div class="d-flex align-items-center m-0">
+                    <svg class="m-0 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ff014f" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M3 6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-6.616l-2.88 2.592C8.537 20.461 7 19.776 7 18.477V17H5a2 2 0 0 1-2-2V6Zm4 2a1 1 0 0 0 0 2h5a1 1 0 1 0 0-2H7Zm8 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2Zm-8 3a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H7Zm5 0a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2h-5Z" clip-rule="evenodd"/>
+                      </svg>
+                      <p class="text-primary m-0">suvoislam753@gmail.com</p>
+                </div>
+                <div class="d-flex align-items-center m-0">
+                    <svg class="m-0 w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ff014f" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M11.32 6.176H5c-1.105 0-2 .949-2 2.118v10.588C3 20.052 3.895 21 5 21h11c1.105 0 2-.948 2-2.118v-7.75l-3.914 4.144A2.46 2.46 0 0 1 12.81 16l-2.681.568c-1.75.37-3.292-1.263-2.942-3.115l.536-2.839c.097-.512.335-.983.684-1.352l2.914-3.086Z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M19.846 4.318a2.148 2.148 0 0 0-.437-.692 2.014 2.014 0 0 0-.654-.463 1.92 1.92 0 0 0-1.544 0 2.014 2.014 0 0 0-.654.463l-.546.578 2.852 3.02.546-.579a2.14 2.14 0 0 0 .437-.692 2.244 2.244 0 0 0 0-1.635ZM17.45 8.721 14.597 5.7 9.82 10.76a.54.54 0 0 0-.137.27l-.536 2.84c-.07.37.239.696.588.622l2.682-.567a.492.492 0 0 0 .255-.145l4.778-5.06Z" clip-rule="evenodd"/>
+                      </svg>
+                      
+                      <p class="text-primary m-0">Motijheel C/A, Dhaka-1000</p>
+                </div>
+            </div>
+            <div class="card-primary mt-5">
+                <p class="text-primary">Download my curriculum vitae:</p>
+                <div class="contact-button-group">
+                    <div class="contact-button card-primary">
+                        <a class="text-secondary" href="https://drive.google.com/file/d/1IljopUuyKg2Lc7OtFd3_GibAkazTs-h8/view?usp=sharing">Download CV</a>
+                    </div>
+                    <div class="contact-button card-primary">
+                        <a class="text-secondary" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <hr class="">
+        <div class="work-experine mx-auto mt-5">
+            <p class="text-center text-secondary">Over 2 years of experience</p>
+            <h1 class="font-secondary user-info-title text-center text-primary">Work Experience</h1>
+            <div>
+                <div class="card-primary row mb-3">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="./asset/allone.jpg" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">2024-NOW</p>
+                                <h3 class="text-light-white">Software Engineer</h3>
+                                <h4 class="text-light-white">AlloneSoftech Ltd</h4>
+                                <ul class="company-role">
+                                    <li>Involved in developing <strong>Mobile Banking</strong> solutions</li>
+                                    <li>Involved in developing <strong>Agent Banking</strong> solutions</li>
+                                    <li>Involved in developing <strong>Internet Banking</strong> solutions</li>
+                                    <li>Implemented <strong>bulk bill payment services</strong></li>
+                                    <li>Developed <strong>message gateway</strong> for the Mobile Financial Services (MFS) system</li>
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://www.allonesofttech.com/">Visit</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-primary row">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="asset/massdata.jpg" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">5 months</p>
+                                <h3 class="text-light-white">Junior Software Engineer</h3>
+                                <h4 class="text-light-white">Massdata Ltd</h4>
+                                <ul class="company-role">
+                                    <li>Built complete <strong>Bulk SMS sending Application</strong></li>
+                                    <li><strong>Front End Development</strong> on <strong>Angular</strong></li>
+                                    <li><strong>Backend Development</strong> with <strong>.NET Core Web API</strong></li>
+                                    <li>Also worked on <strong>Payment Gateway</strong> integration</li>
+                                    <li>Worked on <strong>Mail Service</strong> implementation</li>
+                                  </ul>
+                                  
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://massdataltd.com/">Visit</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-primary row">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="./asset/brainwave.jpg" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">4 Months</p>
+                                <h3 class="text-light-white">Software Engineer Intern</h3>
+                                <h4 class="text-light-white">Pondit Technology</h4>
+                                <ul class="company-role">
+                                    <li>Developed frontend UI <strong>of a ERP</strong> solutions</li>
+                                    <li>Developed  <strong> test taker portal</strong></li>
+                                    <li>Developed <strong>practice CRUD Application </strong></li>
+                                    <li>Completed <strong>certified course on PHP</strong></li>
+                                    
+                                  </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://www.pondit.com/">Visit</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="work-experine mx-auto mt-5">
+           
+            <p id="education" class="text-center text-secondary">SSC, HSC AND BACHELOR</p>
+            <h1 class="font-secondary user-info-title text-center text-primary">EDUCATION</h1>
+            <div>
+                <div class="card-primary row mb-3">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="./asset/nstu.jpg" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">2018-2022</p>
+                                <h3 class="text-light-white">Bsc in Software Engineering</h3>
+                                <h4 class="text-light-white">Noakhali Science And Technology university</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://wa.me/8801309099327">Contact Me</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-primary row">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="./asset/college.png" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">2015-2017</p>
+                                <h3 class="text-light-white">Higher Secondary School</h3>
+                                <h4 class="text-light-white">Louhajong College</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://wa.me/8801309099327">Contact Me</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="card-primary row">
+                    <div class="col-6 m-0">
+                        <div class="d-flex">
+                            <div class="m-0" >
+                                <img   class="educational-institute-photo m-0" src="./asset/bghs.png" alt="">
+                            </div>
+                            <div class="university-info mx-2">
+                                <p class="gray-capsule text-center text-secondary fw-bold">2013-2015</p>
+                                <h3 class="text-light-white">Secondary School</h3>
+                                <h4 class="text-light-white">Braghmon Goan High School</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 m-0">
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+
+                            </div>
+                            <div class="contact-button card-primary">
+                                <a class="text-secondary" href="https://wa.me/8801309099327">Contact Me</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div>
+            <hr class="my-5">
+            <p id="resume" class="text-secondary text-center">2+ Years of Experience</p>
+            <h1 class="text-primary text-center my-2">My Resume</h1>
+            <div class="card-menu-container">
+                <div class="card-primary card-menu card-menu-mb">
+                    <a href="">Education</a>
+                </div>
+                <div class="card-primary card-menu card-menu-mb">
+                    <a href="#digital-skill">Professional Skills</a>
+                </div>
+                <div class="card-primary card-menu card-menu-mb">
+                    <a href="#certificates">Non-academic Certification</a>
+                </div>
+                <div class="card-primary card-menu card-menu-mb">
+                    <a href="">Flag-ship Project worked with</a>
+                </div>
+            </div>
+        </div>
+        <div id="eduction-container py-5">
+
+            <div class="container grid-row">
+                <!-- Education Quality Section -->
+                <div class="section mb-max">
+                    <h2>Education Quality</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3>BSc in Software Engineering</h3>
+                            <p>Noakhali Science And Technology University (2018 - 2023)</p>
+                            <p>The training provided by universities in order to prepare people to work in various sectors of the Information Technology</p>
+                            <span class="badge">2.90/4</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Higher Secondary Certificate</h3>
+                            <p>Louhajang College (2015 - 2017)</p>
+                            <p>Higher education is tertiary education leading to the award of an academic degree.</p>
+                            <span class="badge">4.75/5</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Secondary School Education</h3>
+                            <p>Braghmon Goan High School (2013 - 2015)</p>
+                            <p>Secondary education or post-primary education covers two phases in the International Standard Classification of Education scale.</p>
+                            <span class="badge">5.00/5</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Job Experience Section -->
+                <div class="section mb-max">
+                    <h2>Job Experience</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h3> Software Engineer</h3>
+                            <p>Allone Softech Ltd (2024(March) - Present)</p>
+                            <p>Developed mobile, agent, and internet banking solutions while implementing bulk bill payment services and creating a message gateway for the MFS system.</p>
+                            <span class="badge">Bangladesh</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Junior Softare Engineer</h3>
+                            <p>Mass Data Ltd (2023(Nov) - 2024(March))</p>
+                            <p>Built a Bulk SMS application with Angular frontend and .NET Core backend, also worked on a payment gateway and mail service.</p>
+                            <span class="badge">Bangladesh</span>
+                        </div>
+                        <div class="timeline-item">
+                            <h3>Software Engineer Intern</h3>
+                            <p>Pondit Technology (2022(JUN) - 2022(SEP))</p>
+                            <p>Developed the frontend UI for ERP solutions and a test taker portal, built a practice CRUD application, and completed a certified PHP course.</p>
+                            <span class="badge">Bangladesh</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div id="digital-skill-body py-5">
+            <h1 id="digital-skill" class="text-primary text-center">Professional Skills</h1>
+            <div  class="skils-container grid-row">
+                <!-- Design Skills Section -->
+                <div class="skills-section mb-max">
+                    <h2>Frontend  Skill</h2>
+                    <div class="progress-bar">
+                        <p>Html & CSS <span>100%</span></p>
+                        <div class="progress"><span style="width: 100%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Bootstrap & Tailwind <span>95%</span></p>
+                        <div class="progress"><span style="width: 95%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>React <span>60%</span></p>
+                        <div class="progress"><span style="width: 60%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Angular <span>70%</span></p>
+                        <div class="progress"><span style="width: 70%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>MVC Frameworks<span>90%</span></p>
+                        <div class="progress"><span style="width: 90%;"></span></div>
+                    </div>
+                </div>
+        
+                <!-- Development Skills Section -->
+                <div class="skills-section mb-max">
+                    <h2>Backend Skills</h2>
+                    <div class="progress-bar">
+                        <p>APIs <span>100%</span></p>
+                        <div class="progress"><span style="width: 100%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>.NET <span>95%</span></p>
+                        <div class="progress"><span style="width: 95%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Java<span>60%</span></p>
+                        <div class="progress"><span style="width: 60%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Oracle & MSSQL <span>70%</span></p>
+                        <div class="progress"><span style="width: 70%;"></span></div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>PLSQL <span>90%</span></p>
+                        <div class="progress"><span style="width: 90%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div id="blogs-body">
+            <section id="blogs" class="blog-container">
+                <h2 class="blog-title">My Blogs</h2>
+                <div class="blog-grid grid-row">
+                    <div class="blog-card mb-max" id="b1">
+                        <img src="asset/developer.png" alt="Market Research" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category blog-dev">DEVELOPMENT</span>
+                            <span class="blog-time">● 4 min read</span>
+                            <h3 class="blog-heading">Fintech Market in Bangladesh.</h3>
+                        </div>
+                    </div>
+                    <div class="blog-card mb-max" id="b2">
+                        <img src="asset/developer.png" alt="Writing Success" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category blog-quote">QUOTE</span>
+                            <span class="blog-time">● 5 min read</span>
+                            <h3 class="blog-heading">The CSE Graduate Disaster in Bangladesh.</h3>
+                        </div>
+                    </div>
+                    <div class="blog-card mb-max" id="b3">
+                        <img src="asset/developer.png" alt="Visual Message" class="blog-image">
+                        <div class="blog-content">
+                            <span class="blog-category blog-tech">Ethics</span>
+                            <span class="blog-time">● 3 min read</span>
+                            <h3 class="blog-heading">The Importance of Being a Good Person in the Corporate Environment</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="contact-form-body py-5">
+
+            <div id="contact" class="contact-section">
+                <p>CONTACT</p>
+                <h2>Contact With Me</h2>
+        
+                <div class="contact-container">
+                    <!-- Left Contact Card -->
+                    <div class="contact-card">
+                        <img  src="asset/passport-photo.jpg" alt="Profile Image">
+                        <h3>Shuvo Islam</h3>
+                        <p>Software Engineer</p>
+                        <p>I am available for freelance work. Connect with me via email or call in to my account.</p>
+                        <p><strong>Phone:</strong> <a href="tel:+8801309099327">+8801309099327</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:suvoislam753@gmail.com">suvoislam753@gmail.com</a></p>
+        
+                        <div class="d-flex align-items-center social-logo" style="width: max-content;">
+                            <img id="linkedin-logo" height="30px" width="30px" src="asset/linkedin.svg"/>
+                            <img id="github-logo" style="margin-left: 1rem; background-color: white;" height="30px" width="30px" src="asset/github-logo.svg"/>
+                            <img id="facebook-logo" style="margin-left: 1rem;" height="30px" width="30px" src="asset/facebook-logo.svg"/>
+                        </div>
+                        
+                    </div>
+        
+                    <!-- Right Contact Form -->
+                    <div class="contact-form">
+                        <div class="form-row">
+                            <div class="form-column">
+                                <label>Your Name</label>
+                                <input id="personName" type="text" placeholder="Enter your name">
+                            </div>
+                            <div class="form-column">
+                                <label>Phone Number</label>
+                                <input id="phoneNumber" type="text" placeholder="Enter your phone">
+                            </div>
+                        </div>
+        
+                        <label>Email</label>
+                        <input id="personEmail" type="email" placeholder="Enter your email">
+        
+                        <label>Subject</label>
+                        <input id="messageSubject" type="text" placeholder="Enter subject">
+        
+                        <label>Your Message</label>
+                        <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+        
+                        <button id="submit-message-button">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <div class="p-5">
+        <h1 id="certificates" class="font-secondary user-info-title text-center text-primary">Non-Academic Certifications</h1>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="asset/certificates/block-chain-basics.png" alt="Image 1">
+               
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/programming-hero.png" alt="Image 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/python.png" alt="Image 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/laravel.png" alt="Image 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/digital marketing.png" alt="Image 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/excel.png" alt="Image 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="asset/certificates/google-sheet.png" alt="Image 3">
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&lt;</button>
+            <button class="next" onclick="moveSlide(1)">&gt;</button>
+            <div class="dots-container">
+                <span class="dot" onclick="setSlide(0)"></span>
+                <span class="dot" onclick="setSlide(1)"></span>
+                <span class="dot" onclick="setSlide(2)"></span>
+            </div>
+        </div>
+    
+        <script>
+            let slideIndex = 0;
+            showSlides(slideIndex);
+            function moveSlide(n) { showSlides(slideIndex += n); }
+            function setSlide(n) { showSlides(slideIndex = n); }
+            function showSlides(n) {
+                let slides = document.querySelectorAll(".carousel-slide");
+                let dots = document.querySelectorAll(".dot");
+                if (n >= slides.length) { slideIndex = 0; }
+                if (n < 0) { slideIndex = slides.length - 1; }
+                slides.forEach(slide => slide.style.display = "none");
+                dots.forEach(dot => dot.classList.remove("active-dot"));
+                slides[slideIndex].style.display = "block";
+                dots[slideIndex].classList.add("active-dot");
+            }
+            setInterval(() => { moveSlide(1); }, 12000);
+        </script>
+    </div>
+    <div id="sendMessagePopup">
+        
+            
+        
+            <!-- The Popup Modal -->
+            <div id="popupModal" class="popup">
+                <div class="popup-content">
+                    <span id="closePopup" class="close">&times;</span>
+                    <h2>Choose a Platform</h2>
+                    <p>Pick a platform to send your message:</p>
+                    <button id="whatsappBtn" class="platformBtn">WhatsApp</button>
+                    <button id="skypeBtn" class="platformBtn">Skype</button>
+                </div>
+            </div>
+        
+            
+        
+    </div>
+    <div class="blog-popup" id="blog-popup" style="z-index: 10000; display: none;">
+        <div class="blog-popup-content">
+            <button class="blog-close-btn" onclick="closePopup()">Close</button>
+            <div id="blog-main-content">
+                
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="text-primary text-center"><small>CopyRight: <span class="text-secondary">©Shuvo Islam</span> , 2025</small></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
